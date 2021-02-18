@@ -7,5 +7,6 @@
 <style scoped>
   .home{
     padding: 10px;
+    height: 100vh;
   }
 </style>

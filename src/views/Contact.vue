@@ -17,7 +17,7 @@ export default {
 
 <style scoped>
 .contact{
-  padding: 20px;
+  height: 100vh;
 }
 
 ul{

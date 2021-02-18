@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <div id="nav">
+    <div>
       <router-link class="navitem" to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/contact">Contact</router-link> |
@@ -14,7 +14,6 @@
 </script>
 
 <style>
-
   .header {
     background: #333;
     color: #fff;
