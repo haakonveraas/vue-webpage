@@ -1,7 +1,7 @@
-<template>
-  <div>
+<template class="yolo">
+  <div class="books">
     <h2>Books</h2>
-    <div class="books">
+    <div class="list-books">
       <div v-bind:key="book.id" v-for="book in books">
         <BookItem v-bind:book="book"/>
       </div>
@@ -22,7 +22,12 @@ export default {
 </script>
 
 <style scoped>
+
 .books{
+  margin-top: 50px;
+}
+
+.list-books{
   flex-wrap: wrap;
   display: flex;
 }
