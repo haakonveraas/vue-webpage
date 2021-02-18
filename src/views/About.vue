@@ -10,9 +10,6 @@
       I taught myself Mathematics in High school and advanced to the final in the Norwegian Mathematical Competition at NTNU. I have around 100 solved problems on Project Euler and I have been profitable over 5000 bets on sports by using a primarily
       statistical approach. I'm also a previous amateur boxer and enjoy keeping myself in shape.
     </p>
-
-    <p class="paragraph">This page was developed in Vue.js.
-    </p>
   </div>
 </template>
 
@@ -29,9 +26,7 @@ h1{
   width: 40%;
   text-align: center;
 
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
+  margin: 50px auto;
 }
 
 </style>

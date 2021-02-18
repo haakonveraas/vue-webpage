@@ -2,16 +2,19 @@
   <div id="app">
     <Header />
     <router-view/>
+    <Footer />
   </div>
 </template>
 
 <script>
 import Header from './components/layout/Header.vue'
+import Footer from './components/layout/Footer.vue'
 
 export default {
   name: 'App',
   components: {
-    Header
+    Header,
+    Footer
   }
 }
 </script>
@@ -26,18 +29,5 @@ export default {
 body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.4;
-}
-
-.btn {
-  display: inline-block;
-  border: none;
-  background: #555;
-  color: #fff;
-  padding: 7px 20px;
-  cursor: pointer;
-}
-
-.btn:hover {
-  background: #666;
 }
 </style>

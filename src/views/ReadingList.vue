@@ -47,11 +47,19 @@ export default {
         },
         {
           id: 4,
-          title: "Clean Code",
-          author: "Robert Martin",
-          description: "A great book on how to write well-structured, easy-to-read code. Examples in Java",
+          title: "The Quest",
+          author: "Daniel Yergin",
+          description: "The book covers the history and geopolitics of energy.",
           form: "Book",
-          type: "Programming"
+          type: "Geopolitics"
+        },
+        {
+          id: 5,
+          title: "The Prize",
+          author: "Daniel Yergin",
+          description: "The book covers in depth the history of petroleum and how it has shaped the world we live in.",
+          form: "Book",
+          type: "Geopolitics"
         }
       ]
     }
